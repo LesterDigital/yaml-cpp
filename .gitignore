@@ -1,3 +1,10 @@
 build/
 /tags
 /bazel-*
+
+# Vast specific
+Binaries/
+Binaries-Int/
+*.vcxproj
+*.filters
+*.user
