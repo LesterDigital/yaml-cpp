@@ -1,7 +1,7 @@
 project "yaml-cpp"
 	kind "StaticLib"
 	language "C++"
-	staticruntime "on"
+	staticruntime "off"
 
 	targetdir ("../../../Binaries/" .. outputdir .. "/%{prj.name}")
 	objdir ("../../../Binaries-Int/" .. outputdir .. "/%{prj.name}")
